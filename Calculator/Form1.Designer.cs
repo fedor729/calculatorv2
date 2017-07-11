@@ -45,7 +45,7 @@
             this.Sum.TabIndex = 0;
             this.Sum.Text = "+";
             this.Sum.UseVisualStyleBackColor = true;
-            this.Sum.Click += new System.EventHandler(this.Sum_Click);
+            this.Sum.Click += new System.EventHandler(this.Calculate_Click);
             // 
             // Min
             // 
@@ -55,7 +55,7 @@
             this.Min.TabIndex = 1;
             this.Min.Text = "-";
             this.Min.UseVisualStyleBackColor = true;
-            this.Min.Click += new System.EventHandler(this.Min_Click);
+            this.Min.Click += new System.EventHandler(this.Calculate_Click);
             // 
             // Mult
             // 
@@ -65,7 +65,7 @@
             this.Mult.TabIndex = 2;
             this.Mult.Text = "*";
             this.Mult.UseVisualStyleBackColor = true;
-            this.Mult.Click += new System.EventHandler(this.Mult_Click);
+            this.Mult.Click += new System.EventHandler(this.Calculate_Click);
             // 
             // Div
             // 
@@ -75,7 +75,7 @@
             this.Div.TabIndex = 3;
             this.Div.Text = "/";
             this.Div.UseVisualStyleBackColor = true;
-            this.Div.Click += new System.EventHandler(this.Div_Click);
+            this.Div.Click += new System.EventHandler(this.Calculate_Click);
             // 
             // textBox1
             // 
