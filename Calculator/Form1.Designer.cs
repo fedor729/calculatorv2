@@ -38,13 +38,17 @@
             this.Sinus = new System.Windows.Forms.Button();
             this.Cosine = new System.Windows.Forms.Button();
             this.Logarithm3 = new System.Windows.Forms.Button();
-            this.Exponentiation2 = new System.Windows.Forms.Button();
+            this.Exponentiation3 = new System.Windows.Forms.Button();
             this.Exhibitor = new System.Windows.Forms.Button();
             this.Tangent = new System.Windows.Forms.Button();
             this.Cotangent = new System.Windows.Forms.Button();
             this.Logarithm10 = new System.Windows.Forms.Button();
             this.Exponentiation10 = new System.Windows.Forms.Button();
             this.Denial = new System.Windows.Forms.Button();
+            this.CosG = new System.Windows.Forms.Button();
+            this.Negative = new System.Windows.Forms.Button();
+            this.SinG = new System.Windows.Forms.Button();
+            this.Absolute = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Sum
@@ -145,15 +149,15 @@
             this.Logarithm3.UseVisualStyleBackColor = true;
             this.Logarithm3.Click += new System.EventHandler(this.CalculateOne_Click);
             // 
-            // Exponentiation2
+            // Exponentiation3
             // 
-            this.Exponentiation2.Location = new System.Drawing.Point(227, 107);
-            this.Exponentiation2.Name = "Exponentiation2";
-            this.Exponentiation2.Size = new System.Drawing.Size(75, 23);
-            this.Exponentiation2.TabIndex = 19;
-            this.Exponentiation2.Text = "square 3";
-            this.Exponentiation2.UseVisualStyleBackColor = true;
-            this.Exponentiation2.Click += new System.EventHandler(this.CalculateOne_Click);
+            this.Exponentiation3.Location = new System.Drawing.Point(227, 107);
+            this.Exponentiation3.Name = "Exponentiation3";
+            this.Exponentiation3.Size = new System.Drawing.Size(75, 23);
+            this.Exponentiation3.TabIndex = 19;
+            this.Exponentiation3.Text = "square 3";
+            this.Exponentiation3.UseVisualStyleBackColor = true;
+            this.Exponentiation3.Click += new System.EventHandler(this.CalculateOne_Click);
             // 
             // Exhibitor
             // 
@@ -215,18 +219,62 @@
             this.Denial.UseVisualStyleBackColor = true;
             this.Denial.Click += new System.EventHandler(this.CalculateOne_Click);
             // 
+            // CosG
+            // 
+            this.CosG.Location = new System.Drawing.Point(321, 165);
+            this.CosG.Name = "CosG";
+            this.CosG.Size = new System.Drawing.Size(75, 23);
+            this.CosG.TabIndex = 36;
+            this.CosG.Text = "cos\'( a )";
+            this.CosG.UseVisualStyleBackColor = true;
+            this.CosG.Click += new System.EventHandler(this.CalculateOne_Click);
+            // 
+            // Negative
+            // 
+            this.Negative.Location = new System.Drawing.Point(321, 194);
+            this.Negative.Name = "Negative";
+            this.Negative.Size = new System.Drawing.Size(75, 23);
+            this.Negative.TabIndex = 35;
+            this.Negative.Text = "1/a";
+            this.Negative.UseVisualStyleBackColor = true;
+            this.Negative.Click += new System.EventHandler(this.CalculateOne_Click);
+            // 
+            // SinG
+            // 
+            this.SinG.Location = new System.Drawing.Point(227, 165);
+            this.SinG.Name = "SinG";
+            this.SinG.Size = new System.Drawing.Size(75, 23);
+            this.SinG.TabIndex = 34;
+            this.SinG.Text = "sin\'( a )";
+            this.SinG.UseVisualStyleBackColor = true;
+            this.SinG.Click += new System.EventHandler(this.CalculateOne_Click);
+            // 
+            // Absolute
+            // 
+            this.Absolute.Location = new System.Drawing.Point(227, 194);
+            this.Absolute.Name = "Absolute";
+            this.Absolute.Size = new System.Drawing.Size(75, 23);
+            this.Absolute.TabIndex = 33;
+            this.Absolute.Text = "| a |";
+            this.Absolute.UseVisualStyleBackColor = true;
+            this.Absolute.Click += new System.EventHandler(this.CalculateOne_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(422, 333);
+            this.ClientSize = new System.Drawing.Size(422, 234);
+            this.Controls.Add(this.CosG);
+            this.Controls.Add(this.Negative);
+            this.Controls.Add(this.SinG);
+            this.Controls.Add(this.Absolute);
             this.Controls.Add(this.Denial);
             this.Controls.Add(this.Exponentiation10);
             this.Controls.Add(this.Logarithm10);
             this.Controls.Add(this.Cotangent);
             this.Controls.Add(this.Tangent);
             this.Controls.Add(this.Exhibitor);
-            this.Controls.Add(this.Exponentiation2);
+            this.Controls.Add(this.Exponentiation3);
             this.Controls.Add(this.Logarithm3);
             this.Controls.Add(this.Cosine);
             this.Controls.Add(this.Sinus);
@@ -256,13 +304,17 @@
         private System.Windows.Forms.Button Sinus;
         private System.Windows.Forms.Button Cosine;
         private System.Windows.Forms.Button Logarithm3;
-        private System.Windows.Forms.Button Exponentiation2;
+        private System.Windows.Forms.Button Exponentiation3;
         private System.Windows.Forms.Button Exhibitor;
         private System.Windows.Forms.Button Tangent;
         private System.Windows.Forms.Button Cotangent;
         private System.Windows.Forms.Button Logarithm10;
         private System.Windows.Forms.Button Exponentiation10;
         private System.Windows.Forms.Button Denial;
+        private System.Windows.Forms.Button CosG;
+        private System.Windows.Forms.Button Negative;
+        private System.Windows.Forms.Button SinG;
+        private System.Windows.Forms.Button Absolute;
     }
 }
 

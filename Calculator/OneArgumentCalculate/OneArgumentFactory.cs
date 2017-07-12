@@ -1,4 +1,6 @@
 ﻿using System;
+using Calculator.OneArgumentCalculate;
+
 
 namespace Calculator
 {
@@ -8,26 +10,34 @@ namespace Calculator
         {
             switch (calcName)
             {
-                case "square":
+                case "Exponentiation3":
                     return new Exponentiation2();
-                case "cos":
+                case "Cosine":
                     return new Cosine();
-                case "sin":
+                case "Sinus":
                     return new Sinus();
-                case "ex":
+                case "Exhibitor":
                     return new Exhibitor();
-                case "ln":
+                case "Logarithm3":
                     return new Logarithm2();
-                case "tg":
+                case "Tangent":
                     return new Tangent();
-                case "ctg":
+                case "Cotangent":
                     return new Cotangent();
-                case "log10":
+                case "Logarithm10":
                     return new Logarithm10();
-                case "x10":
+                case "Exponentiation10":
                     return new Exponentiation10();
-                case "min_x":
+                case "Denial":
                     return new Denial();
+                case "SinG":
+                    return new SinG();
+                case "CosG":
+                    return new CosG();
+                case "Absolute":
+                    return new Absolute();
+                case "Negative":
+                    return new Negative();
                 default:
                     throw new Exception("Неизвестная операция");
             }

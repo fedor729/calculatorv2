@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentCalculate\CosG.cs" />
     <Compile Include="OneArgumentCalculate\Denial.cs" />
     <Compile Include="OneArgumentCalculate\Exponentiation10.cs" />
     <Compile Include="OneArgumentCalculate\Cosine.cs" />
@@ -52,13 +53,15 @@
     <Compile Include="OneArgumentCalculate\Exhibitor.cs" />
     <Compile Include="OneArgumentCalculate\Logarithm3.cs" />
     <Compile Include="OneArgumentCalculate\Logarithm10.cs" />
+    <Compile Include="OneArgumentCalculate\Negative.cs" />
     <Compile Include="OneArgumentCalculate\OneArgumentFactory.cs" />
+    <Compile Include="OneArgumentCalculate\SinG.cs" />
     <Compile Include="TwoArgumentsCalculate\Division.cs" />
     <Compile Include="OneArgumentCalculate\IOneArgumentCalculate.cs" />
     <Compile Include="TwoArgumentsCalculate\Subtraction.cs" />
     <Compile Include="TwoArgumentsCalculate\Multiplication.cs" />
     <Compile Include="OneArgumentCalculate\Sinus.cs" />
-    <Compile Include="OneArgumentCalculate\Exponentiation2.cs" />
+    <Compile Include="OneArgumentCalculate\Exponentiation3.cs" />
     <Compile Include="TwoArgumentsCalculate\Summary.cs" />
     <Compile Include="OneArgumentCalculate\Tangent.cs" />
     <Compile Include="TwoArgumentsCalculate\TwoArgumentsFatory.cs" />
