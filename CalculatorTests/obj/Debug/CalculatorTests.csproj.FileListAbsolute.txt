@@ -1,0 +1,10 @@
+C:\Users\Егор\documents\visual studio 2017\Projects\Calculator\CalculatorTests\bin\Debug\CalculatorTests.dll
+C:\Users\Егор\documents\visual studio 2017\Projects\Calculator\CalculatorTests\bin\Debug\CalculatorTests.pdb
+C:\Users\Егор\documents\visual studio 2017\Projects\Calculator\CalculatorTests\bin\Debug\Calculator.exe
+C:\Users\Егор\documents\visual studio 2017\Projects\Calculator\CalculatorTests\bin\Debug\nunit.framework.dll
+C:\Users\Егор\documents\visual studio 2017\Projects\Calculator\CalculatorTests\bin\Debug\Calculator.pdb
+C:\Users\Егор\documents\visual studio 2017\Projects\Calculator\CalculatorTests\bin\Debug\Calculator.exe.config
+C:\Users\Егор\documents\visual studio 2017\Projects\Calculator\CalculatorTests\bin\Debug\nunit.framework.xml
+C:\Users\Егор\documents\visual studio 2017\Projects\Calculator\CalculatorTests\obj\Debug\CalculatorTests.csprojResolveAssemblyReference.cache
+C:\Users\Егор\documents\visual studio 2017\Projects\Calculator\CalculatorTests\obj\Debug\CalculatorTests.dll
+C:\Users\Егор\documents\visual studio 2017\Projects\Calculator\CalculatorTests\obj\Debug\CalculatorTests.pdb

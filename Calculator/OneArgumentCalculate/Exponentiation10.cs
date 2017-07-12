@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Calculator
+namespace Calculator.OneArgumentCalculate
 {
     public class Exponentiation10 : IOneArgumentCalculate
     {

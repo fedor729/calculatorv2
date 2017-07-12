@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Calculator;
 
-namespace Calculator
+namespace Calculator.OneArgumentCalculate
 {
     public class SinG : IOneArgumentCalculate
     {

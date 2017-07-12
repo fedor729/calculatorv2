@@ -1,8 +1,6 @@
 ﻿using System;
-using Calculator.OneArgumentCalculate;
 
-
-namespace Calculator
+namespace Calculator.OneArgumentCalculate
 {
     public static class OneArgumentFactory
     {
