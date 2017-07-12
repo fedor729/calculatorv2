@@ -43,6 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentCalculate\AbsoluteTests.cs" />
+    <Compile Include="OneArgumentCalculate\CosGTests.cs" />
+    <Compile Include="OneArgumentCalculate\CosineTests.cs" />
+    <Compile Include="OneArgumentCalculate\CotangenTests.cs" />
+    <Compile Include="OneArgumentCalculate\DenialTests.cs" />
+    <Compile Include="OneArgumentCalculate\ExhibitorTests.cs" />
+    <Compile Include="OneArgumentCalculate\Exponentiation10Tests.cs" />
+    <Compile Include="OneArgumentCalculate\Exponentiation3Tests.cs" />
+    <Compile Include="OneArgumentCalculate\Logarithm10Tests.cs" />
+    <Compile Include="OneArgumentCalculate\Logarithm3Tests.cs" />
+    <Compile Include="OneArgumentCalculate\NegativeTests.cs" />
+    <Compile Include="OneArgumentCalculate\SinGTest.cs" />
+    <Compile Include="OneArgumentCalculate\SinusTests.cs" />
+    <Compile Include="OneArgumentCalculate\TangentTests.cs" />
     <Compile Include="TwoArgumentsCalculate\SummaryTests.cs" />
     <Compile Include="TwoArgumentsCalculate\MultiplicationTests.cs" />
     <Compile Include="TwoArgumentsCalculate\SubtractionTests.cs" />
@@ -55,9 +69,7 @@
       <Name>Calculator</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OneArgumentCalculate\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>

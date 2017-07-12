@@ -6,14 +6,14 @@ namespace CalculatorTests.TwoArgumentsCalculate
     [TestFixture]
     public class DivisionTests
     {
-        [Test]
-        public void DivisionTest()
+        [TestCase(10, 2, 5)]
+        [TestCase(20, 2, 10)]
+        [TestCase(12, 2, 6)]
+        public void CalculateTest(double first, double second, double expected)
         {
-            var calc=new Division();
-            double first = 2;
-            double second = 2;
-            double result = calc.Calculate(first, second);
-            Assert.AreEqual(1,result);
+            var calculator = new Division();
+            var actualResult = calculator.Calculate(first, second);
+            Assert.AreEqual(expected,actualResult);
         }
     }
 }

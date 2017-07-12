@@ -6,14 +6,14 @@ namespace CalculatorTests.TwoArgumentsCalculate
     [TestFixture]
     public class SubtractionTests
     {
-        [Test]
-        public void SubtractionTest()
+        [TestCase(5, 2, 3)]
+        [TestCase(20, 2, 18)]
+        [TestCase(12, 2, 10)]
+        public void CalculateTest(double first, double second, double expected)
         {
-            var calc = new Subtraction();
-            double first = 7;
-            double second = 3;
-            double result = calc.Calculate(first, second);
-            Assert.AreEqual(4, result);
+            var calculator = new Subtraction();
+            var actualResult = calculator.Calculate(first, second);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }
