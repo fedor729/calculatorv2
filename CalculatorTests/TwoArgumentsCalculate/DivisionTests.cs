@@ -1,4 +1,5 @@
-﻿using Calculator.TwoArgumentsCalculate;
+﻿using System;
+using Calculator.TwoArgumentsCalculate;
 using NUnit.Framework;
 
 namespace CalculatorTests.TwoArgumentsCalculate
@@ -14,6 +15,12 @@ namespace CalculatorTests.TwoArgumentsCalculate
             var calculator = new Division();
             var actualResult = calculator.Calculate(first, second);
             Assert.AreEqual(expected,actualResult);
+        }
+        [Test]
+        public void ErrorTest()
+        {
+            var calculator = new Division();
+            Assert.Throws<Exception>(() => calculator.Calculate(-5,0));
         }
     }
 }

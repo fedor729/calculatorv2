@@ -1,4 +1,5 @@
-﻿using Calculator.OneArgumentCalculate;
+﻿using System;
+using Calculator.OneArgumentCalculate;
 using Calculator.TwoArgumentsCalculate;
 using NUnit.Framework;
 
@@ -15,6 +16,12 @@ namespace CalculatorTests.OneArgumentCalculate
             var calculator = new Logarithm2();
             var actualResult = calculator.Calculate(first);
             Assert.AreEqual(expected, actualResult, 0.0001);
+        }
+        [Test]
+        public void ErrorTest()
+        {
+            var calculator = new Logarithm2();
+            Assert.Throws<Exception>(() => calculator.Calculate(-1));
         }
     }
 }
