@@ -2,6 +2,9 @@
 
 namespace Calculator.TwoArgumentsCalculate
 {
+    /// <summary>
+    /// Calculators factory for two argument
+    /// </summary>
     public static class TwoArgumentsFatory
 
     {

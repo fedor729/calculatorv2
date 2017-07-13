@@ -3,15 +3,10 @@
 namespace Calculator.OneArgumentCalculate
 {
     /// <summary>
-    /// 
+    /// Calculators factory for one argument
     /// </summary>
     public static class OneArgumentFactory
     {
-/// <summary>
-/// 
-/// </summary>
-/// <param name="calcName"></param>
-/// <returns></returns>
         public static IOneArgumentCalculate CreateCalculator(string calcName)
         {
             switch (calcName)

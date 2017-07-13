@@ -53,7 +53,7 @@
             // 
             // Sum
             // 
-            this.Sum.Location = new System.Drawing.Point(12, 78);
+            this.Sum.Location = new System.Drawing.Point(336, 12);
             this.Sum.Name = "Sum";
             this.Sum.Size = new System.Drawing.Size(75, 23);
             this.Sum.TabIndex = 0;
@@ -63,7 +63,7 @@
             // 
             // Min
             // 
-            this.Min.Location = new System.Drawing.Point(102, 78);
+            this.Min.Location = new System.Drawing.Point(336, 41);
             this.Min.Name = "Min";
             this.Min.Size = new System.Drawing.Size(75, 23);
             this.Min.TabIndex = 1;
@@ -73,7 +73,7 @@
             // 
             // Mult
             // 
-            this.Mult.Location = new System.Drawing.Point(12, 107);
+            this.Mult.Location = new System.Drawing.Point(336, 70);
             this.Mult.Name = "Mult";
             this.Mult.Size = new System.Drawing.Size(75, 23);
             this.Mult.TabIndex = 2;
@@ -83,7 +83,7 @@
             // 
             // Div
             // 
-            this.Div.Location = new System.Drawing.Point(102, 107);
+            this.Div.Location = new System.Drawing.Point(336, 99);
             this.Div.Name = "Div";
             this.Div.Size = new System.Drawing.Size(75, 23);
             this.Div.TabIndex = 3;
@@ -93,35 +93,38 @@
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.textBox1.Location = new System.Drawing.Point(12, 23);
+            this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(75, 20);
+            this.textBox1.Size = new System.Drawing.Size(156, 29);
             this.textBox1.TabIndex = 4;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox2.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.textBox2.Location = new System.Drawing.Point(102, 23);
+            this.textBox2.Location = new System.Drawing.Point(174, 12);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(75, 20);
+            this.textBox2.Size = new System.Drawing.Size(156, 29);
             this.textBox2.TabIndex = 5;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox3
             // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.textBox3.Location = new System.Drawing.Point(12, 49);
+            this.textBox3.Location = new System.Drawing.Point(12, 47);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(165, 20);
+            this.textBox3.Size = new System.Drawing.Size(318, 38);
             this.textBox3.TabIndex = 6;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox3.Click += new System.EventHandler(this.CalculateOne_Click);
             // 
             // Sinus
             // 
-            this.Sinus.Location = new System.Drawing.Point(227, 20);
+            this.Sinus.Location = new System.Drawing.Point(12, 99);
             this.Sinus.Name = "Sinus";
             this.Sinus.Size = new System.Drawing.Size(75, 23);
             this.Sinus.TabIndex = 14;
@@ -131,7 +134,7 @@
             // 
             // Cosine
             // 
-            this.Cosine.Location = new System.Drawing.Point(227, 49);
+            this.Cosine.Location = new System.Drawing.Point(93, 99);
             this.Cosine.Name = "Cosine";
             this.Cosine.Size = new System.Drawing.Size(75, 23);
             this.Cosine.TabIndex = 15;
@@ -141,7 +144,7 @@
             // 
             // Logarithm3
             // 
-            this.Logarithm3.Location = new System.Drawing.Point(227, 78);
+            this.Logarithm3.Location = new System.Drawing.Point(255, 128);
             this.Logarithm3.Name = "Logarithm3";
             this.Logarithm3.Size = new System.Drawing.Size(75, 23);
             this.Logarithm3.TabIndex = 17;
@@ -151,7 +154,7 @@
             // 
             // Exponentiation3
             // 
-            this.Exponentiation3.Location = new System.Drawing.Point(227, 107);
+            this.Exponentiation3.Location = new System.Drawing.Point(12, 128);
             this.Exponentiation3.Name = "Exponentiation3";
             this.Exponentiation3.Size = new System.Drawing.Size(75, 23);
             this.Exponentiation3.TabIndex = 19;
@@ -161,7 +164,7 @@
             // 
             // Exhibitor
             // 
-            this.Exhibitor.Location = new System.Drawing.Point(227, 136);
+            this.Exhibitor.Location = new System.Drawing.Point(174, 128);
             this.Exhibitor.Name = "Exhibitor";
             this.Exhibitor.Size = new System.Drawing.Size(75, 23);
             this.Exhibitor.TabIndex = 21;
@@ -171,7 +174,7 @@
             // 
             // Tangent
             // 
-            this.Tangent.Location = new System.Drawing.Point(321, 21);
+            this.Tangent.Location = new System.Drawing.Point(174, 99);
             this.Tangent.Name = "Tangent";
             this.Tangent.Size = new System.Drawing.Size(75, 23);
             this.Tangent.TabIndex = 22;
@@ -181,7 +184,7 @@
             // 
             // Cotangent
             // 
-            this.Cotangent.Location = new System.Drawing.Point(321, 50);
+            this.Cotangent.Location = new System.Drawing.Point(255, 99);
             this.Cotangent.Name = "Cotangent";
             this.Cotangent.Size = new System.Drawing.Size(75, 23);
             this.Cotangent.TabIndex = 23;
@@ -191,7 +194,7 @@
             // 
             // Logarithm10
             // 
-            this.Logarithm10.Location = new System.Drawing.Point(321, 78);
+            this.Logarithm10.Location = new System.Drawing.Point(174, 157);
             this.Logarithm10.Name = "Logarithm10";
             this.Logarithm10.Size = new System.Drawing.Size(75, 23);
             this.Logarithm10.TabIndex = 24;
@@ -201,7 +204,7 @@
             // 
             // Exponentiation10
             // 
-            this.Exponentiation10.Location = new System.Drawing.Point(321, 107);
+            this.Exponentiation10.Location = new System.Drawing.Point(93, 128);
             this.Exponentiation10.Name = "Exponentiation10";
             this.Exponentiation10.Size = new System.Drawing.Size(75, 23);
             this.Exponentiation10.TabIndex = 25;
@@ -211,7 +214,7 @@
             // 
             // Denial
             // 
-            this.Denial.Location = new System.Drawing.Point(321, 136);
+            this.Denial.Location = new System.Drawing.Point(255, 157);
             this.Denial.Name = "Denial";
             this.Denial.Size = new System.Drawing.Size(75, 23);
             this.Denial.TabIndex = 26;
@@ -221,7 +224,7 @@
             // 
             // CosG
             // 
-            this.CosG.Location = new System.Drawing.Point(321, 165);
+            this.CosG.Location = new System.Drawing.Point(93, 157);
             this.CosG.Name = "CosG";
             this.CosG.Size = new System.Drawing.Size(75, 23);
             this.CosG.TabIndex = 36;
@@ -231,7 +234,7 @@
             // 
             // Negative
             // 
-            this.Negative.Location = new System.Drawing.Point(321, 194);
+            this.Negative.Location = new System.Drawing.Point(336, 157);
             this.Negative.Name = "Negative";
             this.Negative.Size = new System.Drawing.Size(75, 23);
             this.Negative.TabIndex = 35;
@@ -241,7 +244,7 @@
             // 
             // SinG
             // 
-            this.SinG.Location = new System.Drawing.Point(227, 165);
+            this.SinG.Location = new System.Drawing.Point(12, 157);
             this.SinG.Name = "SinG";
             this.SinG.Size = new System.Drawing.Size(75, 23);
             this.SinG.TabIndex = 34;
@@ -251,7 +254,7 @@
             // 
             // Absolute
             // 
-            this.Absolute.Location = new System.Drawing.Point(227, 194);
+            this.Absolute.Location = new System.Drawing.Point(336, 128);
             this.Absolute.Name = "Absolute";
             this.Absolute.Size = new System.Drawing.Size(75, 23);
             this.Absolute.TabIndex = 33;
@@ -263,7 +266,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(422, 234);
+            this.ClientSize = new System.Drawing.Size(422, 187);
             this.Controls.Add(this.CosG);
             this.Controls.Add(this.Negative);
             this.Controls.Add(this.SinG);
@@ -285,6 +288,7 @@
             this.Controls.Add(this.Mult);
             this.Controls.Add(this.Min);
             this.Controls.Add(this.Sum);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Form1";
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);

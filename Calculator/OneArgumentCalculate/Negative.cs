@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 namespace Calculator.OneArgumentCalculate
 {
     /// <summary>
-    /// 
+    /// Class for Negative function
     /// </summary>
     public class Negative : IOneArgumentCalculate
     {
         /// <summary>
-        /// 
+        /// Method for Negative calculation
         /// </summary>
-        /// <param name="first"></param>
-        /// <returns></returns>
+        /// <param name="first">Input value</param>
+        /// <returns>Calculated value</returns>
         public double Calculate(double first)
         {
             if (first == 0)
